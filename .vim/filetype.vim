@@ -1,0 +1,2 @@
+au BufRead,BufNewFile nomad??????.log setfiletype nomadlog
+au BufRead,BufNewFile nomad??????.log set nowrap
