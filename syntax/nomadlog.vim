@@ -3,9 +3,10 @@
 " Maintainer: Jonas Stein
 " Latest Revision: 2016-10-16
 
-if exists("b:current_syntax")
-  finish
-endif
+" check if syntax is already loaded
+if exists("b:current_syntax") | finish | endif
+" set flag when abaqus syntax is loaded
+let b:current_syntax = "nomadlog"
 
 " Keywords
 syn keyword nomadOperator pr dr co se on off sc fm bs
