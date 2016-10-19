@@ -1,1 +1,1 @@
-au BufRead,BufNewFile nomad??????.log set nowrap
+set nowrap
